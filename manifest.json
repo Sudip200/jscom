@@ -1,0 +1,22 @@
+{
+    "background_color": "#eae32f",
+    "description": "Javascript compiler",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "Jscompiler",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "jscom",
+    "start_url": "/",
+    "theme_color": "#eeeb0d",
+    "categories": [],
+    "screenshots": [],
+    "icons": [
+      {
+        "src": "icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "shortcuts": []
+  }
