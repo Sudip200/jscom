@@ -1,0 +1,8 @@
+com/js/sds/DelegationService.java
+ com.js.sds.DelegationService
+com/js/sds/LauncherActivity.java
+ com.js.sds.LauncherActivity
+com/js/sds/Application.java
+ com.js.sds.Application
+com/js/sds/BuildConfig.java
+ com.js.sds.BuildConfig

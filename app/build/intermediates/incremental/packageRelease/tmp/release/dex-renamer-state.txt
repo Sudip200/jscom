@@ -1,0 +1,4 @@
+#Wed Jun 21 10:30:02 UTC 2023
+base.0=/workspaces/jscom/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

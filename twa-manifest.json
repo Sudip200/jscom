@@ -1,0 +1,41 @@
+{
+  "packageId": "com.js.sds",
+  "host": "sudip200.github.io/jscom/",
+  "name": "Jscompiler",
+  "launcherName": "jscom",
+  "display": "standalone",
+  "themeColor": "#E6E612",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#F7F7F5",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://sudip200.github.io/jscom/icon.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/workspaces/jscom/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://sudip200.github.io/jscom/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://sudip200.github.io/",
+  "minSdkVersion": 19,
+  "orientation": "any",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}
