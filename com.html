@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Offline JavaScript Compiler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            
+           height: 600px;
+           font-size: 2em;
+           overflow-y: scroll;
+        }
+        html ,body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+        .appbar >div{
+           font-weight: 40px;
+           font-size: 40px;
+        }
+        .appbar{
+            background-color: yellow;
+             width: 100%;
+             height: 70px;
+        }
+        #code {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 10px;
+            background: black;
+            color:white;
+        }
+          textarea{
+            min-height: 70%;
+            font-size: 1em;
+          }
+        #output {
+            width: 100%;
+            height: 200px;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+        #compile-btn {
+            padding: 10px 20px;
+            background-color: #ceee16;
+            color: rgb(12, 11, 11);
+            border: none;
+            cursor: pointer;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="appbar">
+        <div>Jscompiler</div>
+     </div>
+    <div class="container">
+        <textarea id="code" placeholder="Enter your JavaScript code here"></textarea>
+        <button id="compile-btn">Compile</button>
+        <div id="output"></div>
+    </div>
+
+    <script>
+        // Get the necessary HTML elements
+        const codeInput = document.getElementById("code");
+        const compileButton = document.getElementById("compile-btn");
+        const outputDiv = document.getElementById("output");
+
+        // Add event listener to the compile button
+        compileButton.addEventListener("click", compileCode);
+
+        function compileCode() {
+            // Clear previous output
+            outputDiv.innerText = "";
+
+            try {
+                // Get the user's JavaScript code from the input
+                const userCode = codeInput.value;
+
+                // Redirect console.log to display in the output area
+                const consoleLog = console.log;
+                console.log = function (message) {
+                    outputDiv.innerText += message + "\n";
+                };
+
+                // Compile and execute the code
+                const result = eval(userCode);
+
+                // Restore console.log to its original behavior
+                console.log = consoleLog;
+
+                // Display the output
+                outputDiv.innerText += "Result: " + result;
+            } catch (error) {
+                // Display any errors that occur during compilation
+                outputDiv.innerText = "Error: " + error.message;
+            }
+        }
+    </script>
+</body>
+</html>
