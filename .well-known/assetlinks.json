@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.js.sds",
+        "sha256_cert_fingerprints":
+          ["8D:1A:33:4A:F1:A3:D8:A5:45:CF:6F:B9:F6:31:FB:A6:79:F6:79:9E:8B:1A:F7:52:54:4D:8F:6D:F9:2E:3F:1A"]
+      }
+    }
+  ]
