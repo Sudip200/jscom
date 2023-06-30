@@ -5,18 +5,36 @@
     "display": "standalone",
     "name": "Jscompiler",
     "orientation": "any",
-    "scope": "/",
+    "scope": "/jscom/",
     "short_name": "jscom",
-    "start_url": "/",
+    "start_url": "/jscom/",
     "theme_color": "#eeeb0d",
     "categories": [],
-    "screenshots": [],
+    "screenshots": [{
+      "src": "/jscom/ss1.png",
+      "type": "image/png"
+      },
+      {
+      "src": "/jscom/ss2.png",
+      "type": "image/png"
+      },
+      {
+      "src": "/jscom/ss3.png",
+      "type": "image/png"
+      }],
     "icons": [
       {
-        "src": "icon.png",
+        "src": "/jscom/icon.png",
         "type": "image/png",
         "sizes": "512x512"
-      }
+      },
+      {
+        "src": "/jscom/icon.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "maskable any"
+        }
     ],
     "shortcuts": []
+    
   }
