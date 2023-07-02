@@ -21,12 +21,49 @@
             <i class="fa-brands fa-js fa-9x" style="color: #e3f207;"></i><br>
             JavaScript Compiler
         </div>
-        <div class="com">
+        <div class="com" onclick="navigatutorial()">
             <i class="fa-brands fa-js fa-9x" style="color: #e3f207;"></i><br>
            <div>JavaScript Tutorial</div> 
-           <div class="coming">comming soon</div>
+           <div class="coming">coming soon</div>
         </div>
     </div>
+    <div id="join-email-list">
+        <div class="email-div">
+ <div class="btn" onclick="closeEmailList()" style="cursor: pointer;">I will do it later</div>
+ <div class="btn" onclick="closeEmailList()" style="cursor: pointer;margin-left: 80%;">Close</div>
+ <div id="mc_embed_shell">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{background:white; clear:left; font:14px Helvetica,Arial,sans-serif; width: 300px;}
+    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://gmail.us21.list-manage.com/subscribe/post?u=aecee2a2a08cb6fa658a5bc5b&amp;id=71da8067bc&amp;f_id=00f8b3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+    <div id="mc_embed_signup_scroll"><h2>Join our email list to get exciting updates first </h2>
+        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+    <div id="mce-responses" class="clear foot">
+        <div class="response" id="mce-error-response" style="display: none;"></div>
+        <div class="response" id="mce-success-response" style="display: none;"></div>
+    </div>
+<div aria-hidden="true" style="position: absolute; left: -5000px;">
+    /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+    <input type="text" name="b_aecee2a2a08cb6fa658a5bc5b_71da8067bc" tabindex="-1" value="">
+</div>
+    <div class="optionalParent">
+        <div class="clear foot">
+            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+           
+        </div>
+    </div>
+</div>
+</form>
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=EMAIL;ftypes[0]=merge; fnames[1]=FNAME;ftypes[1]=merge;fnames[2]=LNAME;ftypes[2]=merge;fnames[3]=ADDRESS;ftypes[3]=merge;fnames[4]=PHONE;ftypes[4]=merge;fnames[5]=BIRTHDAY;ftypes[5]=merge;false}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+
+   </div>
+   </div>
     <style>
         html ,body{
             margin: 0;
@@ -69,6 +106,42 @@
             transform: rotate(-10deg);
            
         }
+        #join-email-list{
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             height: 100vh;
+             background-color: rgb(0, 0, 0,0.5);
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             display: none;
+         }
+         i{
+             cursor: pointer;
+         }
+         form{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+         }
+         input{
+             padding: 10px;
+             margin: 10px;
+             border-radius: 10px;
+             border: none;
+             outline: none;
+         }
+         .email-div{
+             background-color: white;
+             padding: 20px;
+             border-radius: 10px;
+             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+         }
     </style>
     <script>
          if ("serviceWorker" in navigator) {
@@ -82,6 +155,14 @@
         function navigate(){
             window.location.href='/jscom/com'
         }
+        function navigatutorial(){
+            window.location.href='/jscom/jstutorial'
+        }
+        function closeEmailList(){
+             document.getElementById('join-email-list').style.display='none'
+         }
+        setTimeout(() => {
+            document.getElementById('join-email-list').style.display='flex'},3000)
     </script>
 </body>
 </html>
