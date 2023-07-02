@@ -26,12 +26,12 @@ def twaManifest = [
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Jscompiler', // The application name.
     launcherName: 'jscom', // The name shown on the Android Launcher.
-    themeColor: '#E6E612', // The color used for the status bar.
+    themeColor: '#EEEB0D', // The color used for the status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
     navigationDividerColor: '#000000', // The navbar divider color.
     navigationDividerColorDark: '#000000', // The dark navbar divider color.
-    backgroundColor: '#F7F7F5', // The color used for the splash screen background.
+    backgroundColor: '#EAE32F', // The color used for the splash screen background.
     enableNotifications: true, // Set to true to enable notification delegation.
     // Every shortcut must include the following fields:
     // - name: String that will show up in the shortcut.
@@ -55,8 +55,8 @@ android {
         applicationId "com.js.sds"
         minSdkVersion 19
         targetSdkVersion 33
-        versionCode 1
-        versionName "1"
+        versionCode 4
+        versionName "4"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
@@ -77,7 +77,7 @@ android {
 
         
             // This is used by Meta Quest.
-            resValue "string", "fullScopeUrl", 'https://sudip200.github.io/'
+            resValue "string", "fullScopeUrl", 'https://sudip200.github.io/jscom/'
         
 
         

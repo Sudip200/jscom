@@ -23,263 +23,263 @@
 23-->
 24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 25    package="com.js.sds"
-26    android:versionCode="1"
-27    android:versionName="1" >
+26    android:versionCode="4"
+27    android:versionName="4" >
 28
 29    <uses-sdk
 30        android:minSdkVersion="19"
-30-->/workspaces/jscom/app/src/main/AndroidManifest.xml
+30-->/workspace/jscom/app/src/main/AndroidManifest.xml
 31        android:targetSdkVersion="33" />
-31-->/workspaces/jscom/app/src/main/AndroidManifest.xml
+31-->/workspace/jscom/app/src/main/AndroidManifest.xml
 32
 33    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-33-->/workspaces/jscom/app/src/main/AndroidManifest.xml:26:9-80
-33-->/workspaces/jscom/app/src/main/AndroidManifest.xml:26:26-78
+33-->/workspace/jscom/app/src/main/AndroidManifest.xml:26:9-80
+33-->/workspace/jscom/app/src/main/AndroidManifest.xml:26:26-78
 34
 35    <queries>
-35-->[com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /home/codespace/.gradle/caches/transforms-2/files-2.1/2a4780e5ae3e94fb64dd0623d9799b3d/androidbrowserhelper-2.4.0/AndroidManifest.xml:26:5-34:15
+35-->[com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /workspace/.gradle/caches/transforms-2/files-2.1/2a4780e5ae3e94fb64dd0623d9799b3d/androidbrowserhelper-2.4.0/AndroidManifest.xml:26:5-34:15
 36        <intent>
-36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /home/codespace/.gradle/caches/transforms-2/files-2.1/2a4780e5ae3e94fb64dd0623d9799b3d/androidbrowserhelper-2.4.0/AndroidManifest.xml:27:9-33:18
+36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] /workspace/.gradle/caches/transforms-2/files-2.1/2a4780e5ae3e94fb64dd0623d9799b3d/androidbrowserhelper-2.4.0/AndroidManifest.xml:27:9-33:18
 37            <action android:name="android.intent.action.VIEW" />
-37-->/workspaces/jscom/app/src/main/AndroidManifest.xml:133:17-68
-37-->/workspaces/jscom/app/src/main/AndroidManifest.xml:133:25-66
+37-->/workspace/jscom/app/src/main/AndroidManifest.xml:133:17-68
+37-->/workspace/jscom/app/src/main/AndroidManifest.xml:133:25-66
 38
 39            <category android:name="android.intent.category.BROWSABLE" />
-39-->/workspaces/jscom/app/src/main/AndroidManifest.xml:135:17-77
-39-->/workspaces/jscom/app/src/main/AndroidManifest.xml:135:27-75
+39-->/workspace/jscom/app/src/main/AndroidManifest.xml:135:17-77
+39-->/workspace/jscom/app/src/main/AndroidManifest.xml:135:27-75
 40
 41            <data android:scheme="https" />
-41-->/workspaces/jscom/app/src/main/AndroidManifest.xml:136:17-137:54
-41-->/workspaces/jscom/app/src/main/AndroidManifest.xml:136:23-45
+41-->/workspace/jscom/app/src/main/AndroidManifest.xml:136:17-137:54
+41-->/workspace/jscom/app/src/main/AndroidManifest.xml:136:23-45
 42        </intent>
 43    </queries>
 44
 45    <application
-45-->/workspaces/jscom/app/src/main/AndroidManifest.xml:35:5-180:19
+45-->/workspace/jscom/app/src/main/AndroidManifest.xml:35:5-180:19
 46        android:name="com.js.sds.Application"
-46-->/workspaces/jscom/app/src/main/AndroidManifest.xml:36:9-35
+46-->/workspace/jscom/app/src/main/AndroidManifest.xml:36:9-35
 47        android:allowBackup="true"
-47-->/workspaces/jscom/app/src/main/AndroidManifest.xml:37:9-35
+47-->/workspace/jscom/app/src/main/AndroidManifest.xml:37:9-35
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-48-->[androidx.core:core:1.1.0] /home/codespace/.gradle/caches/transforms-2/files-2.1/e601daed4ba62929db8b322b2974c8f8/core-1.1.0/AndroidManifest.xml:24:18-86
+48-->[androidx.core:core:1.1.0] /workspace/.gradle/caches/transforms-2/files-2.1/e601daed4ba62929db8b322b2974c8f8/core-1.1.0/AndroidManifest.xml:24:18-86
 49        android:icon="@mipmap/ic_launcher"
-49-->/workspaces/jscom/app/src/main/AndroidManifest.xml:38:9-43
+49-->/workspace/jscom/app/src/main/AndroidManifest.xml:38:9-43
 50        android:label="@string/appName"
-50-->/workspaces/jscom/app/src/main/AndroidManifest.xml:39:9-40
+50-->/workspace/jscom/app/src/main/AndroidManifest.xml:39:9-40
 51        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
-51-->/workspaces/jscom/app/src/main/AndroidManifest.xml:41:9-105
+51-->/workspace/jscom/app/src/main/AndroidManifest.xml:41:9-105
 52        android:supportsRtl="true"
-52-->/workspaces/jscom/app/src/main/AndroidManifest.xml:43:9-35
+52-->/workspace/jscom/app/src/main/AndroidManifest.xml:43:9-35
 53        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-53-->/workspaces/jscom/app/src/main/AndroidManifest.xml:44:9-68
+53-->/workspace/jscom/app/src/main/AndroidManifest.xml:44:9-68
 54        <meta-data
-54-->/workspaces/jscom/app/src/main/AndroidManifest.xml:46:9-48:58
+54-->/workspace/jscom/app/src/main/AndroidManifest.xml:46:9-48:58
 55            android:name="asset_statements"
-55-->/workspaces/jscom/app/src/main/AndroidManifest.xml:47:13-44
+55-->/workspace/jscom/app/src/main/AndroidManifest.xml:47:13-44
 56            android:resource="@string/assetStatements" />
-56-->/workspaces/jscom/app/src/main/AndroidManifest.xml:48:13-55
+56-->/workspace/jscom/app/src/main/AndroidManifest.xml:48:13-55
 57        <meta-data
-57-->/workspaces/jscom/app/src/main/AndroidManifest.xml:51:13-53:58
+57-->/workspace/jscom/app/src/main/AndroidManifest.xml:51:13-53:58
 58            android:name="web_manifest_url"
-58-->/workspaces/jscom/app/src/main/AndroidManifest.xml:52:17-48
+58-->/workspace/jscom/app/src/main/AndroidManifest.xml:52:17-48
 59            android:value="@string/webManifestUrl" />
-59-->/workspaces/jscom/app/src/main/AndroidManifest.xml:53:17-55
+59-->/workspace/jscom/app/src/main/AndroidManifest.xml:53:17-55
 60        <meta-data
-60-->/workspaces/jscom/app/src/main/AndroidManifest.xml:56:9-58:52
+60-->/workspace/jscom/app/src/main/AndroidManifest.xml:56:9-58:52
 61            android:name="twa_generator"
-61-->/workspaces/jscom/app/src/main/AndroidManifest.xml:57:13-41
+61-->/workspace/jscom/app/src/main/AndroidManifest.xml:57:13-41
 62            android:value="@string/generatorApp" />
-62-->/workspaces/jscom/app/src/main/AndroidManifest.xml:58:13-49
+62-->/workspace/jscom/app/src/main/AndroidManifest.xml:58:13-49
 63
 64        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
-64-->/workspaces/jscom/app/src/main/AndroidManifest.xml:65:13-69:24
-64-->/workspaces/jscom/app/src/main/AndroidManifest.xml:65:23-104
+64-->/workspace/jscom/app/src/main/AndroidManifest.xml:65:13-69:24
+64-->/workspace/jscom/app/src/main/AndroidManifest.xml:65:23-104
 65            <meta-data
-65-->/workspaces/jscom/app/src/main/AndroidManifest.xml:66:13-68:53
+65-->/workspace/jscom/app/src/main/AndroidManifest.xml:66:13-68:53
 66                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
-66-->/workspaces/jscom/app/src/main/AndroidManifest.xml:67:17-83
+66-->/workspace/jscom/app/src/main/AndroidManifest.xml:67:17-83
 67                android:value="@string/launchUrl" />
-67-->/workspaces/jscom/app/src/main/AndroidManifest.xml:68:17-50
+67-->/workspace/jscom/app/src/main/AndroidManifest.xml:68:17-50
 68        </activity>
 69        <activity
-69-->/workspaces/jscom/app/src/main/AndroidManifest.xml:72:9-141:20
+69-->/workspace/jscom/app/src/main/AndroidManifest.xml:72:9-141:20
 70            android:name="com.js.sds.LauncherActivity"
-70-->/workspaces/jscom/app/src/main/AndroidManifest.xml:72:19-50
+70-->/workspace/jscom/app/src/main/AndroidManifest.xml:72:19-50
 71            android:alwaysRetainTaskState="true"
-71-->/workspaces/jscom/app/src/main/AndroidManifest.xml:73:13-49
+71-->/workspace/jscom/app/src/main/AndroidManifest.xml:73:13-49
 72            android:exported="true"
-72-->/workspaces/jscom/app/src/main/AndroidManifest.xml:75:13-36
+72-->/workspace/jscom/app/src/main/AndroidManifest.xml:75:13-36
 73            android:label="@string/launcherName" >
-73-->/workspaces/jscom/app/src/main/AndroidManifest.xml:74:13-49
+73-->/workspace/jscom/app/src/main/AndroidManifest.xml:74:13-49
 74            <meta-data
-74-->/workspaces/jscom/app/src/main/AndroidManifest.xml:76:13-77:53
+74-->/workspace/jscom/app/src/main/AndroidManifest.xml:76:13-77:53
 75                android:name="android.support.customtabs.trusted.DEFAULT_URL"
-75-->/workspaces/jscom/app/src/main/AndroidManifest.xml:76:24-85
+75-->/workspace/jscom/app/src/main/AndroidManifest.xml:76:24-85
 76                android:value="@string/launchUrl" />
-76-->/workspaces/jscom/app/src/main/AndroidManifest.xml:77:17-50
+76-->/workspace/jscom/app/src/main/AndroidManifest.xml:77:17-50
 77            <meta-data
-77-->/workspaces/jscom/app/src/main/AndroidManifest.xml:79:13-81:58
+77-->/workspace/jscom/app/src/main/AndroidManifest.xml:79:13-81:58
 78                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
-78-->/workspaces/jscom/app/src/main/AndroidManifest.xml:80:17-83
+78-->/workspace/jscom/app/src/main/AndroidManifest.xml:80:17-83
 79                android:resource="@color/colorPrimary" />
-79-->/workspaces/jscom/app/src/main/AndroidManifest.xml:81:17-55
+79-->/workspace/jscom/app/src/main/AndroidManifest.xml:81:17-55
 80            <meta-data
-80-->/workspaces/jscom/app/src/main/AndroidManifest.xml:83:13-85:61
+80-->/workspace/jscom/app/src/main/AndroidManifest.xml:83:13-85:61
 81                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
-81-->/workspaces/jscom/app/src/main/AndroidManifest.xml:84:17-87
+81-->/workspace/jscom/app/src/main/AndroidManifest.xml:84:17-87
 82                android:resource="@color/navigationColor" />
-82-->/workspaces/jscom/app/src/main/AndroidManifest.xml:85:17-58
+82-->/workspace/jscom/app/src/main/AndroidManifest.xml:85:17-58
 83            <meta-data
-83-->/workspaces/jscom/app/src/main/AndroidManifest.xml:87:13-89:65
+83-->/workspace/jscom/app/src/main/AndroidManifest.xml:87:13-89:65
 84                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
-84-->/workspaces/jscom/app/src/main/AndroidManifest.xml:88:17-92
+84-->/workspace/jscom/app/src/main/AndroidManifest.xml:88:17-92
 85                android:resource="@color/navigationColorDark" />
-85-->/workspaces/jscom/app/src/main/AndroidManifest.xml:89:17-62
+85-->/workspace/jscom/app/src/main/AndroidManifest.xml:89:17-62
 86            <meta-data
-86-->/workspaces/jscom/app/src/main/AndroidManifest.xml:91:13-93:68
+86-->/workspace/jscom/app/src/main/AndroidManifest.xml:91:13-93:68
 87                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
-87-->/workspaces/jscom/app/src/main/AndroidManifest.xml:92:17-84
+87-->/workspace/jscom/app/src/main/AndroidManifest.xml:92:17-84
 88                android:resource="@color/navigationDividerColor" />
-88-->/workspaces/jscom/app/src/main/AndroidManifest.xml:93:17-65
+88-->/workspace/jscom/app/src/main/AndroidManifest.xml:93:17-65
 89            <meta-data
-89-->/workspaces/jscom/app/src/main/AndroidManifest.xml:95:13-97:72
+89-->/workspace/jscom/app/src/main/AndroidManifest.xml:95:13-97:72
 90                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
-90-->/workspaces/jscom/app/src/main/AndroidManifest.xml:96:17-89
+90-->/workspace/jscom/app/src/main/AndroidManifest.xml:96:17-89
 91                android:resource="@color/navigationDividerColorDark" />
-91-->/workspaces/jscom/app/src/main/AndroidManifest.xml:97:17-69
+91-->/workspace/jscom/app/src/main/AndroidManifest.xml:97:17-69
 92            <meta-data
-92-->/workspaces/jscom/app/src/main/AndroidManifest.xml:99:13-100:54
+92-->/workspace/jscom/app/src/main/AndroidManifest.xml:99:13-100:54
 93                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
-93-->/workspaces/jscom/app/src/main/AndroidManifest.xml:99:24-95
+93-->/workspace/jscom/app/src/main/AndroidManifest.xml:99:24-95
 94                android:resource="@drawable/splash" />
-94-->/workspaces/jscom/app/src/main/AndroidManifest.xml:100:17-52
+94-->/workspace/jscom/app/src/main/AndroidManifest.xml:100:17-52
 95            <meta-data
-95-->/workspaces/jscom/app/src/main/AndroidManifest.xml:102:13-103:60
+95-->/workspace/jscom/app/src/main/AndroidManifest.xml:102:13-103:60
 96                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
-96-->/workspaces/jscom/app/src/main/AndroidManifest.xml:102:24-104
+96-->/workspace/jscom/app/src/main/AndroidManifest.xml:102:24-104
 97                android:resource="@color/backgroundColor" />
-97-->/workspaces/jscom/app/src/main/AndroidManifest.xml:103:17-58
+97-->/workspace/jscom/app/src/main/AndroidManifest.xml:103:17-58
 98            <meta-data
-98-->/workspaces/jscom/app/src/main/AndroidManifest.xml:105:13-106:71
+98-->/workspace/jscom/app/src/main/AndroidManifest.xml:105:13-106:71
 99                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
-99-->/workspaces/jscom/app/src/main/AndroidManifest.xml:105:24-105
+99-->/workspace/jscom/app/src/main/AndroidManifest.xml:105:24-105
 100                android:value="@integer/splashScreenFadeOutDuration" />
-100-->/workspaces/jscom/app/src/main/AndroidManifest.xml:106:17-69
+100-->/workspace/jscom/app/src/main/AndroidManifest.xml:106:17-69
 101            <meta-data
-101-->/workspaces/jscom/app/src/main/AndroidManifest.xml:108:13-109:60
+101-->/workspace/jscom/app/src/main/AndroidManifest.xml:108:13-109:60
 102                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
-102-->/workspaces/jscom/app/src/main/AndroidManifest.xml:108:24-97
+102-->/workspace/jscom/app/src/main/AndroidManifest.xml:108:24-97
 103                android:value="@string/providerAuthority" />
-103-->/workspaces/jscom/app/src/main/AndroidManifest.xml:109:17-58
+103-->/workspace/jscom/app/src/main/AndroidManifest.xml:109:17-58
 104            <meta-data
-104-->/workspaces/jscom/app/src/main/AndroidManifest.xml:111:13-97
+104-->/workspace/jscom/app/src/main/AndroidManifest.xml:111:13-97
 105                android:name="android.app.shortcuts"
-105-->/workspaces/jscom/app/src/main/AndroidManifest.xml:111:24-60
+105-->/workspace/jscom/app/src/main/AndroidManifest.xml:111:24-60
 106                android:resource="@xml/shortcuts" />
-106-->/workspaces/jscom/app/src/main/AndroidManifest.xml:111:61-94
+106-->/workspace/jscom/app/src/main/AndroidManifest.xml:111:61-94
 107            <meta-data
-107-->/workspaces/jscom/app/src/main/AndroidManifest.xml:113:13-114:56
+107-->/workspace/jscom/app/src/main/AndroidManifest.xml:113:13-114:56
 108                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
-108-->/workspaces/jscom/app/src/main/AndroidManifest.xml:113:24-91
+108-->/workspace/jscom/app/src/main/AndroidManifest.xml:113:24-91
 109                android:value="@string/fallbackType" />
-109-->/workspaces/jscom/app/src/main/AndroidManifest.xml:114:17-53
+109-->/workspace/jscom/app/src/main/AndroidManifest.xml:114:17-53
 110            <meta-data
-110-->/workspaces/jscom/app/src/main/AndroidManifest.xml:120:13-121:54
+110-->/workspace/jscom/app/src/main/AndroidManifest.xml:120:13-121:54
 111                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
-111-->/workspaces/jscom/app/src/main/AndroidManifest.xml:120:24-92
+111-->/workspace/jscom/app/src/main/AndroidManifest.xml:120:24-92
 112                android:value="@string/orientation" />
-112-->/workspaces/jscom/app/src/main/AndroidManifest.xml:121:17-52
+112-->/workspace/jscom/app/src/main/AndroidManifest.xml:121:17-52
 113
 114            <intent-filter>
-114-->/workspaces/jscom/app/src/main/AndroidManifest.xml:127:13-130:29
+114-->/workspace/jscom/app/src/main/AndroidManifest.xml:127:13-130:29
 115                <action android:name="android.intent.action.MAIN" />
-115-->/workspaces/jscom/app/src/main/AndroidManifest.xml:128:17-69
-115-->/workspaces/jscom/app/src/main/AndroidManifest.xml:128:25-66
+115-->/workspace/jscom/app/src/main/AndroidManifest.xml:128:17-69
+115-->/workspace/jscom/app/src/main/AndroidManifest.xml:128:25-66
 116
 117                <category android:name="android.intent.category.LAUNCHER" />
-117-->/workspaces/jscom/app/src/main/AndroidManifest.xml:129:17-77
-117-->/workspaces/jscom/app/src/main/AndroidManifest.xml:129:27-74
+117-->/workspace/jscom/app/src/main/AndroidManifest.xml:129:17-77
+117-->/workspace/jscom/app/src/main/AndroidManifest.xml:129:27-74
 118            </intent-filter>
 119            <intent-filter android:autoVerify="true" >
-119-->/workspaces/jscom/app/src/main/AndroidManifest.xml:132:13-138:29
-119-->/workspaces/jscom/app/src/main/AndroidManifest.xml:132:28-53
+119-->/workspace/jscom/app/src/main/AndroidManifest.xml:132:13-138:29
+119-->/workspace/jscom/app/src/main/AndroidManifest.xml:132:28-53
 120                <action android:name="android.intent.action.VIEW" />
-120-->/workspaces/jscom/app/src/main/AndroidManifest.xml:133:17-68
-120-->/workspaces/jscom/app/src/main/AndroidManifest.xml:133:25-66
+120-->/workspace/jscom/app/src/main/AndroidManifest.xml:133:17-68
+120-->/workspace/jscom/app/src/main/AndroidManifest.xml:133:25-66
 121
 122                <category android:name="android.intent.category.DEFAULT" />
-122-->/workspaces/jscom/app/src/main/AndroidManifest.xml:134:17-76
-122-->/workspaces/jscom/app/src/main/AndroidManifest.xml:134:27-73
+122-->/workspace/jscom/app/src/main/AndroidManifest.xml:134:17-76
+122-->/workspace/jscom/app/src/main/AndroidManifest.xml:134:27-73
 123                <category android:name="android.intent.category.BROWSABLE" />
-123-->/workspaces/jscom/app/src/main/AndroidManifest.xml:135:17-77
-123-->/workspaces/jscom/app/src/main/AndroidManifest.xml:135:27-75
+123-->/workspace/jscom/app/src/main/AndroidManifest.xml:135:17-77
+123-->/workspace/jscom/app/src/main/AndroidManifest.xml:135:27-75
 124
 125                <data
-125-->/workspaces/jscom/app/src/main/AndroidManifest.xml:136:17-137:54
+125-->/workspace/jscom/app/src/main/AndroidManifest.xml:136:17-137:54
 126                    android:host="@string/hostName"
-126-->/workspaces/jscom/app/src/main/AndroidManifest.xml:137:21-52
+126-->/workspace/jscom/app/src/main/AndroidManifest.xml:137:21-52
 127                    android:scheme="https" />
-127-->/workspaces/jscom/app/src/main/AndroidManifest.xml:136:23-45
+127-->/workspace/jscom/app/src/main/AndroidManifest.xml:136:23-45
 128            </intent-filter>
 129        </activity>
 130        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
-130-->/workspaces/jscom/app/src/main/AndroidManifest.xml:143:9-90
-130-->/workspaces/jscom/app/src/main/AndroidManifest.xml:143:19-87
+130-->/workspace/jscom/app/src/main/AndroidManifest.xml:143:9-90
+130-->/workspace/jscom/app/src/main/AndroidManifest.xml:143:19-87
 131        <activity
-131-->/workspaces/jscom/app/src/main/AndroidManifest.xml:145:9-146:62
+131-->/workspace/jscom/app/src/main/AndroidManifest.xml:145:9-146:62
 132            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
-132-->/workspaces/jscom/app/src/main/AndroidManifest.xml:145:19-97
+132-->/workspace/jscom/app/src/main/AndroidManifest.xml:145:19-97
 133            android:configChanges="orientation|screenSize" />
-133-->/workspaces/jscom/app/src/main/AndroidManifest.xml:146:13-59
+133-->/workspace/jscom/app/src/main/AndroidManifest.xml:146:13-59
 134
 135        <provider
-135-->/workspaces/jscom/app/src/main/AndroidManifest.xml:148:9-156:20
+135-->/workspace/jscom/app/src/main/AndroidManifest.xml:148:9-156:20
 136            android:name="androidx.core.content.FileProvider"
-136-->/workspaces/jscom/app/src/main/AndroidManifest.xml:149:13-62
+136-->/workspace/jscom/app/src/main/AndroidManifest.xml:149:13-62
 137            android:authorities="@string/providerAuthority"
-137-->/workspaces/jscom/app/src/main/AndroidManifest.xml:150:13-60
+137-->/workspace/jscom/app/src/main/AndroidManifest.xml:150:13-60
 138            android:exported="false"
-138-->/workspaces/jscom/app/src/main/AndroidManifest.xml:152:13-37
+138-->/workspace/jscom/app/src/main/AndroidManifest.xml:152:13-37
 139            android:grantUriPermissions="true" >
-139-->/workspaces/jscom/app/src/main/AndroidManifest.xml:151:13-47
+139-->/workspace/jscom/app/src/main/AndroidManifest.xml:151:13-47
 140            <meta-data
-140-->/workspaces/jscom/app/src/main/AndroidManifest.xml:153:13-155:53
+140-->/workspace/jscom/app/src/main/AndroidManifest.xml:153:13-155:53
 141                android:name="android.support.FILE_PROVIDER_PATHS"
-141-->/workspaces/jscom/app/src/main/AndroidManifest.xml:154:17-67
+141-->/workspace/jscom/app/src/main/AndroidManifest.xml:154:17-67
 142                android:resource="@xml/filepaths" />
-142-->/workspaces/jscom/app/src/main/AndroidManifest.xml:155:17-50
+142-->/workspace/jscom/app/src/main/AndroidManifest.xml:155:17-50
 143        </provider>
 144
 145        <service
-145-->/workspaces/jscom/app/src/main/AndroidManifest.xml:158:9-173:19
+145-->/workspace/jscom/app/src/main/AndroidManifest.xml:158:9-173:19
 146            android:name="com.js.sds.DelegationService"
-146-->/workspaces/jscom/app/src/main/AndroidManifest.xml:159:13-46
+146-->/workspace/jscom/app/src/main/AndroidManifest.xml:159:13-46
 147            android:enabled="@bool/enableNotification"
-147-->/workspaces/jscom/app/src/main/AndroidManifest.xml:160:13-55
+147-->/workspace/jscom/app/src/main/AndroidManifest.xml:160:13-55
 148            android:exported="@bool/enableNotification" >
-148-->/workspaces/jscom/app/src/main/AndroidManifest.xml:161:13-56
+148-->/workspace/jscom/app/src/main/AndroidManifest.xml:161:13-56
 149            <meta-data
-149-->/workspaces/jscom/app/src/main/AndroidManifest.xml:164:17-166:73
+149-->/workspace/jscom/app/src/main/AndroidManifest.xml:164:17-166:73
 150                android:name="android.support.customtabs.trusted.SMALL_ICON"
-150-->/workspaces/jscom/app/src/main/AndroidManifest.xml:165:21-81
+150-->/workspace/jscom/app/src/main/AndroidManifest.xml:165:21-81
 151                android:resource="@drawable/ic_notification_icon" />
-151-->/workspaces/jscom/app/src/main/AndroidManifest.xml:166:21-70
+151-->/workspace/jscom/app/src/main/AndroidManifest.xml:166:21-70
 152
 153            <intent-filter>
-153-->/workspaces/jscom/app/src/main/AndroidManifest.xml:169:13-172:29
+153-->/workspace/jscom/app/src/main/AndroidManifest.xml:169:13-172:29
 154                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
-154-->/workspaces/jscom/app/src/main/AndroidManifest.xml:170:17-105
-154-->/workspaces/jscom/app/src/main/AndroidManifest.xml:170:25-103
+154-->/workspace/jscom/app/src/main/AndroidManifest.xml:170:17-105
+154-->/workspace/jscom/app/src/main/AndroidManifest.xml:170:25-103
 155
 156                <category android:name="android.intent.category.DEFAULT" />
-156-->/workspaces/jscom/app/src/main/AndroidManifest.xml:134:17-76
-156-->/workspaces/jscom/app/src/main/AndroidManifest.xml:134:27-73
+156-->/workspace/jscom/app/src/main/AndroidManifest.xml:134:17-76
+156-->/workspace/jscom/app/src/main/AndroidManifest.xml:134:27-73
 157            </intent-filter>
 158        </service>
 159
 160        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
-160-->/workspaces/jscom/app/src/main/AndroidManifest.xml:176:13-118
-160-->/workspaces/jscom/app/src/main/AndroidManifest.xml:176:23-115
+160-->/workspace/jscom/app/src/main/AndroidManifest.xml:176:13-118
+160-->/workspace/jscom/app/src/main/AndroidManifest.xml:176:23-115
 161    </application>
 162
 163</manifest>
